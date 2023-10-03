@@ -3,6 +3,8 @@ import HomeLayout from "../Components/Layouts/HomeLayout";
 import DashboardLayout from "../Components/Layouts/DashboardLayout";
 import VerifyLayout from "../Components/Layouts/VerifyLayout";
 import HomePage from "../Components/Pages/Home/HomePage";
+import About from "../Components/Pages/About/About";
+import AllProducts from "../Components/Pages/All_products/AllProducts";
 
 const router = createBrowserRouter([
   {
@@ -19,7 +21,7 @@ const router = createBrowserRouter([
       },
       {
         path: "all",
-        element: <>all product here</>,
+        element: <AllProducts></AllProducts>,
       },
     ],
     errorElement: <>some thing went wrong</>,
