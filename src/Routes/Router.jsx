@@ -15,7 +15,7 @@ const router = createBrowserRouter([
       },
       {
         path: "about",
-        element: <>this is about page of fably</>,
+        element: <About />,
       },
       {
         path: "all",
