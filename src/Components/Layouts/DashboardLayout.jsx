@@ -5,13 +5,13 @@ import Header from "../Pages/Common/Header/Header";
 
 const DashboardLayout = () => {
   return (
-    <div className="min-h-screen flex flex-col max-w-[1400px] px-12 mx-auto ">
+    <div className="min-h-screen flex flex-col max-w-[1400px] mx-auto ">
       <Header></Header>
-      <div className="grid grid-cols-4 ">
+      <div className="grid grid-cols-4">
         <div className="hidden md:block col-span-1 ">
           <SideBar></SideBar>
         </div>
-        <div className="">
+        <div className="bg-red-300 ">
           <Outlet />
         </div>
       </div>
