@@ -2,15 +2,17 @@ import Banner from "./Banner";
 import FallStyle from "./FallStyle";
 import Featured from "./Featured";
 import Iconic from "./Iconic";
-import Trending from "./Trending";
+// import Trending from "./Trending";
+import Trendings from "./Trendings";
 
 const HomePage = () => {
   return (
-    <div>
+    <div className="flex flex-col gap-16">
       {/* banner section */}
       <Banner></Banner>
       {/* trending section  */}
-      <Trending></Trending>
+      {/* <Trending></Trending> */}
+      <Trendings></Trendings>
       {/* featured section */}
       <Featured></Featured>
       {/* Iconic */}
