@@ -22,7 +22,7 @@ const Banner = () => {
                 Introduing Full Force, a new take on the 1980`s Air Force
                 family. inspired by the game on court for your looks off court.
               </p>
-              <button className=" mx-auto opacity-50  group-hover:opacity-100 btn transition-all duration-500 rounded-3xl text-white hover:shadow-2xl bg-black hover:bg-gray-600">
+              <button className=" mx-auto opacity-50  group-hover:opacity-100 btn transition-all duration-100 rounded-3xl text-white hover:shadow-2xl bg-black hover:bg-white hover:text-black px-6 py-2 lg:mt-10">
                 buy now
               </button>
             </div>
