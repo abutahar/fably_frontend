@@ -29,7 +29,7 @@ const Navbar = () => {
           <div>
             <Link to="/dashboard">
               <button className="border sm:border-none border-gray-300 btn btn-ghost normal-case text-xl">
-                Profile
+                Join Us
               </button>
             </Link>
           </div>

@@ -16,12 +16,12 @@ const router = createBrowserRouter([
         element: <HomePage></HomePage>,
       },
       {
-        path: "about",
+        path: "/about",
         element: <About />,
       },
       {
-        path: "all",
-        element: <AllProducts></AllProducts>,
+        path: "/all",
+        element: <AllProducts />,
       },
     ],
     errorElement: <>some thing went wrong</>,
