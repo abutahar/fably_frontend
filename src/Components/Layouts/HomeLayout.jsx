@@ -6,7 +6,7 @@ function HomeLayout() {
   return (
     <>
       <div className="max-w-[1400px] min-h-screen mx-auto flex flex-col">
-        <div className="z-50 sticky top-0   right-0 left-0">
+        <div className="z-50 sticky top-0   ">
           <Header></Header>
         </div>
 

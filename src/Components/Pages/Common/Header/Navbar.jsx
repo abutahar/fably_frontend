@@ -6,8 +6,8 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <div>
-        <div className="hidden sm:flex  rounded justify-between items-center bg-base-100">
+      <div className=" bg-white p-2 md:p-0">
+        <div className="hidden p-2 sm:flex  rounded justify-between items-center bg-base-100">
           <div>
             <Link className="btn border sm:border-0 border-gray-300 btn-ghost normal-case text-xl">
               Fably
