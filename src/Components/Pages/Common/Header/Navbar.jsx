@@ -29,7 +29,20 @@ const Navbar = () => {
           <div>
             <Link to="/dashboard">
               <button className="border sm:border-none border-gray-300 btn btn-ghost normal-case text-xl">
-                Join Us
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="w-6 h-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15M12 9l-3 3m0 0l3 3m-3-3h12.75"
+                  />
+                </svg>
               </button>
             </Link>
           </div>
@@ -124,13 +137,13 @@ const Navbar = () => {
             }`}
           ></div>
           <div
-            className={`  z-20 right-0  ease-out top-0  fixed w-9/12 h-screen shadow-2xl bg-white ${
+            className={`  z-20 right-0  ease-out top-0  fixed w-9/12 h-full shadow-2xl bg-white ${
               open ? "visible" : "hidden"
             }  transition duration-300`}
           >
             <div
               onClick={() => setOpen(() => !open)}
-              className="right-0 top-3 rounded-full p-2  mr-4 absolute hover:shadow hover:bg-gray-300"
+              className="right-0 top-3 bg-gray-200 hover:bg-gray-300 rounded-full p-2  mr-4 absolute hover:shadow "
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -138,7 +151,7 @@ const Navbar = () => {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-6 inline h-6"
+                className="w-7 inline h-7"
               >
                 <path
                   strokeLinecap="round"
@@ -147,7 +160,7 @@ const Navbar = () => {
                 />
               </svg>
             </div>
-            <div className="mt-8 px-4 pt-4">
+            <div className="p-4 flex flex-col h-full mt-4 justify-between">
               <SideBar></SideBar>
             </div>
           </div>

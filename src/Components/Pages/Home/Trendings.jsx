@@ -34,8 +34,8 @@ const Trendings = () => {
                     className="transition-all duration-200  group-hover:blur-sm"
                   />
 
-                  <div className="absolute inset-2 md:inset-14 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all rounded m-5  ">
-                    <h1 className=" text-3xl text-white align-middle font-semibold bottom-10 opacity-70 group-hover:opacity-100 m-5">
+                  <div className="absolute inset-0 md:inset-14 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all rounded m-2 md:m5  ">
+                    <h1 className=" text-3xl text-white align-middle font-semibold bottom-10 opacity-70 group-hover:opacity-100  md:m-5">
                       {d.feature || "gfdfdaf"}
                     </h1>
                   </div>

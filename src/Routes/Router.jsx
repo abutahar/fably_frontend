@@ -16,19 +16,19 @@ const router = createBrowserRouter([
         element: <HomePage></HomePage>,
       },
       {
-        path: "/about",
+        path: "about",
         element: <About />,
       },
       {
-        path: "/all",
+        path: "all",
         element: <AllProducts />,
       },
     ],
     errorElement: <>some thing went wrong</>,
   },
   {
-    path: "dashboard",
-    element: <DashboardLayout></DashboardLayout>,
+    path: "/dashboard",
+    element: <DashboardLayout />,
     children: [
       {
         path: "user",
@@ -37,7 +37,7 @@ const router = createBrowserRouter([
     ],
   },
   {
-    path: "verify",
+    path: "/verify",
     element: <VerifyLayout></VerifyLayout>,
     children: [
       {
