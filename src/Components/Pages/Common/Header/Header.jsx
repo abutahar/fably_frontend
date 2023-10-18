@@ -1,9 +1,14 @@
-import Navbar from "./Navbar";
+import NavMobile from "./NavMobile";
+import NavbarPc from "./NavbarPC";
 
 const Header = () => {
   return (
-    <div className=" border md:w-full lg:w-[1400px] md:mx-auto sm:border-none ">
-      <Navbar></Navbar>
+    <div className=" lg:w-[1400px]  md:mx-auto">
+      <div className="hidden   sm:flex  rounded justify-between items-center bg-base-100">
+        <NavbarPc></NavbarPc>
+      </div>
+
+      <NavMobile></NavMobile>
     </div>
   );
 };
