@@ -27,15 +27,20 @@ const router = createBrowserRouter([
     errorElement: <>some thing went wrong</>,
   },
   {
-    path: "/dashboard",
+    path: "/user",
     element: <DashboardLayout />,
     children: [
       {
-        path: "user",
+        path: "dashboard",
+        element: <>this is dashboard</>,
+      },
+      {
+        path: "profile",
         element: <>this is profile page of user</>,
       },
     ],
   },
+
   {
     path: "/verify",
     element: <VerifyLayout></VerifyLayout>,
