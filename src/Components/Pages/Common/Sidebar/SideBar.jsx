@@ -5,7 +5,7 @@ const SideBar = () => {
     <>
       <div className="z-100 w-full flex border sm:border-0 flex-col h-full overflow-hidden pl-2 ">
         <Link
-          className="flex border-b mr-2 hover:bg-slate-200 gap-1  items-center justify-start"
+          className="flex border-b mr-2 hover:border-gray-700 gap-1  items-center justify-start"
           to="/"
         >
           {/* home icon */}
@@ -33,7 +33,7 @@ const SideBar = () => {
 
         {/* store  */}
         <Link
-          className="flex border-b mr-2 hover:bg-slate-200 gap-1  items-center justify-start"
+          className="flex border-b mr-2 hover:border-gray-700 gap-1  items-center justify-start"
           to="/all"
         >
           <div className="w-6">
@@ -59,7 +59,7 @@ const SideBar = () => {
 
         {/* profile */}
         <Link
-          className="flex border-b mr-2 hover:bg-slate-200 gap-1  items-center justify-start"
+          className="flex border-b mr-2 hover:border-gray-700 gap-1  items-center justify-start"
           to="/user/profile"
         >
           <div className="w-6">
@@ -85,7 +85,7 @@ const SideBar = () => {
 
         {/* dashboard */}
         <Link
-          className="flex border-b mr-2 hover:bg-slate-300 gap-1  items-center justify-start "
+          className="flex border-b mr-2 hover:border-gray-700 gap-1  items-center justify-start "
           to="/user/dashboard"
         >
           <div className="w-6">
@@ -108,7 +108,7 @@ const SideBar = () => {
             Dashboard
           </div>
         </Link>
-        <div className="flex border-b mr-2 hover:bg-slate-200 gap-1  items-center justify-start">
+        <div className="flex border-b mr-2 hover:border-gray-700 gap-1  items-center justify-start">
           <div className="w-6">
             <svg
               xmlns="http://www.w3.org/2000/svg"
