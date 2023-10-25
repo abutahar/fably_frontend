@@ -3,8 +3,8 @@ import NavbarPc from "./NavbarPC";
 
 const Header = () => {
   return (
-    <div className=" lg:w-[1400px]  md:mx-auto">
-      <div className="hidden   sm:flex  rounded justify-between items-center bg-base-100">
+    <div className=" lg:max-w-[1400px]  md:mx-auto">
+      <div className="hidden sm:flex  rounded justify-between items-center bg-base-100">
         <NavbarPc></NavbarPc>
       </div>
 

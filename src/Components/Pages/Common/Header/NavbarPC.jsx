@@ -4,7 +4,7 @@ const NavbarPc = () => {
   return (
     <>
       <div>
-        <Link className="btn border sm:border-0 border-gray-300 btn-ghost normal-case text-xl">
+        <Link className=" border sm:border-0 font-bold font-mono border-gray-300  normal-case text-3xl">
           Fably
         </Link>
       </div>
@@ -23,14 +23,14 @@ const NavbarPc = () => {
       </div>
       <div>
         <Link to="/dashboard">
-          <button className="border sm:border-none border-gray-300 btn btn-ghost normal-case text-xl">
+          <button className="border sm:border-none align-middle border-gray-300  normal-case text-xl">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="w-6 h-6"
+              className="w-6 h-6 "
             >
               <path
                 strokeLinecap="round"

@@ -34,7 +34,7 @@ const FallStyles = () => {
                     className="transition-all duration-200  "
                   />
                 </div>
-                <div className=" items-center justify-center">
+                <div className=" border-b pb-2 items-center justify-center">
                   <div className="">
                     <h1 className="font-semibold text-xl">
                       {d.text || "abcd"}
