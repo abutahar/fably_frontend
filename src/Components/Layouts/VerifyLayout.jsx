@@ -3,8 +3,7 @@ import Header from "../Pages/Common/Header/Header";
 
 const VerifyLayout = () => {
   return (
-    <div>
-      <h1>this is verify page</h1>
+    <div className="">
       <Header></Header>
       <Outlet />
     </div>

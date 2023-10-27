@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const SideBar = () => {
   return (
     <>
-      <div className="z-100 w-full flex border sm:border-0 flex-col h-full overflow-hidden pl-2 ">
+      <div className="z-100 w-full flex border sm:border-0 flex-col justify-between overflow-hidden pl-2 ">
         <Link
           className="flex border-b mr-2 hover:border-gray-700 gap-1  items-center justify-start"
           to="/"
@@ -108,7 +108,35 @@ const SideBar = () => {
             Dashboard
           </div>
         </Link>
-        <div className="flex border-b mr-2 hover:border-gray-700 gap-1  items-center justify-start">
+        {/* register */}
+        <Link
+          className="flex border-b mr-2 hover:border-gray-700 gap-1  items-center justify-start "
+          to="/verify/register"
+        >
+          <div className="w-6">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="w-6 h-6 "
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15M12 9l-3 3m0 0l3 3m-3-3h12.75"
+              />
+            </svg>
+          </div>
+          <div className="text-xl text-start  my-1  rounded-sm px-4 py-2">
+            Register
+          </div>
+        </Link>
+        <Link
+          className="flex border-b mr-2 hover:border-gray-700 gap-1  items-center justify-start"
+          to="/about"
+        >
           <div className="w-6">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -126,13 +154,10 @@ const SideBar = () => {
             </svg>
           </div>
 
-          <Link
-            className="text-xl text-start    my-1  rounded-sm px-4 py-2"
-            to="/about"
-          >
+          <div className="text-xl text-start    my-1  rounded-sm px-4 py-2">
             About Us
-          </Link>
-        </div>
+          </div>
+        </Link>
       </div>
       <div className="p-4 text-gray-400">powered by abutahar mondl</div>
     </>

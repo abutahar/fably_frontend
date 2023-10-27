@@ -22,7 +22,7 @@ const NavbarPc = () => {
         </ul>
       </div>
       <div>
-        <Link to="/dashboard">
+        <Link to="/user/dashboard">
           <button className="border sm:border-none align-middle border-gray-300  normal-case text-xl">
             <svg
               xmlns="http://www.w3.org/2000/svg"

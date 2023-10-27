@@ -141,7 +141,7 @@ const NavMobile = () => {
             />
           </svg>
         </div>
-        <div className="p-4 flex flex-col h-full mt-4 justify-between">
+        <div className="p-4 flex flex-col h-screen mt-4 justify-between">
           <SideBar></SideBar>
         </div>
       </div>

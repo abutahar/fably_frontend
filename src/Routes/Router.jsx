@@ -5,6 +5,8 @@ import VerifyLayout from "../Components/Layouts/VerifyLayout";
 import HomePage from "../Components/Pages/Home/HomePage";
 import About from "../Components/Pages/About/About";
 import AllProducts from "../Components/Pages/All_products/AllProducts";
+import Login from "../Components/Pages/Verify/Login";
+import Register from "../Components/Pages/Verify/Register";
 
 const router = createBrowserRouter([
   {
@@ -46,12 +48,16 @@ const router = createBrowserRouter([
     element: <VerifyLayout></VerifyLayout>,
     children: [
       {
+        path: "/verify",
+        element: <Register></Register>,
+      },
+      {
         path: "login",
-        element: <>this is login page</>,
+        element: <Login></Login>,
       },
       {
         path: "register",
-        element: <>this is register page</>,
+        element: <Register></Register>,
       },
     ],
   },
